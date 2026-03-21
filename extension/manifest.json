@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "AdGuard",
   "version": "1.0.0",
-  "description": "Ad blocker powered by Brave's adblock technology. Blocks ads, trackers, and YouTube video ads.",
+  "description": "A custom-engineered, ultra-lightweight Manifest V3 ad blocker. Instantly blocks intrusive ads, trackers, and YouTube video payloads.",
   "permissions": [
     "declarativeNetRequest",
     "declarativeNetRequestFeedback",

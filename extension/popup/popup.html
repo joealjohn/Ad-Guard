@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AdGuard</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="popup">
+    <!-- Header -->
+    <div class="header">
+      <h1 class="app-heading" id="appHeading">AdGuard</h1>
+    </div>
+
+    <!-- Toggle -->
+    <div class="toggle-area">
+      <button class="toggle-switch" id="toggleSwitch" role="switch" aria-checked="false">
+        <span class="toggle-track" id="toggleTrack">
+          <span class="toggle-thumb" id="toggleThumb"></span>
+        </span>
+      </button>
+    </div>
+
+    <!-- Status -->
+    <div class="status-area">
+      <div class="connection-label" id="connectionLabel">Disconnected</div>
+      <div class="protection-msg" id="protectionMsg">
+        Your browser is <strong>not protected</strong>
+      </div>
+    </div>
+
+    <!-- Pause Feature -->
+    <div class="pause-area">
+      <div class="site-info" id="currentSite">Loading...</div>
+      <button class="pause-btn" id="pauseSiteBtn">
+        <!-- SVG Injected via JS -->
+      </button>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="brand">
+        <span class="brand-name">AdGuard</span>
+        <span class="brand-sub">By ACE</span>
+      </div>
+      <button id="themeToggle" class="theme-btn" title="Toggle Theme"></button>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

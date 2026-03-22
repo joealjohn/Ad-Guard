@@ -1,7 +1,8 @@
 /**
- * AdGuard — YouTube Ad Blocker Content Script
- * Skips video ads, removes overlay ads, hides ad banners on YouTube.
- * Uses only DOM manipulation (no inline script injection to comply with MV3 CSP).
+ * YouTube Ad Skipper — Ghost Mode
+ * Zero-fingerprint content script. No custom attributes, no console output,
+ * no CSS injection, no prototype pollution. Completely invisible to YouTube's
+ * anti-adblock integrity scanner.
  */
 
 (function() {
@@ -11,73 +12,66 @@
   let adsSkipped = 0;
   let lastAdState = false;
 
-  // Check initial state
+  // Check initial state silently
   try {
     chrome.storage.local.get(['state', 'pausedSites'], (data) => {
       if (chrome.runtime.lastError) return;
       const state = data.state;
       const pausedSites = data.pausedSites || [];
       const isPaused = pausedSites.includes(location.hostname);
-      
       if (state) enabled = state.enabled;
-      
-      if (!enabled || isPaused) {
-        enabled = false;
-        document.documentElement.setAttribute('data-adguard-disabled', 'true');
-      } else {
-        document.documentElement.removeAttribute('data-adguard-disabled');
-      }
-
+      if (!enabled || isPaused) enabled = false;
     });
   } catch {}
 
-  // Listen for state changes
+  // Listen for state changes silently
   try {
     chrome.runtime.onMessage.addListener((msg) => {
       if (msg.type === 'STATE_CHANGED') {
         enabled = msg.enabled;
-        if (!enabled) document.documentElement.setAttribute('data-adguard-disabled', 'true');
-        else document.documentElement.removeAttribute('data-adguard-disabled');
-
       }
     });
   } catch {}
 
   /**
-   * Main ad detection and removal loop
+   * Main ad detection and skip loop
    */
   function checkForAds() {
     if (!enabled) return;
-
     try {
       skipVideoAds();
       clickSkipButton();
-    } catch (e) {
-      // Silently handle errors
-    }
+    } catch (e) {}
   }
 
   /**
    * Skip video ads by fast-forwarding to end
    */
   function skipVideoAds() {
-    const video = document.querySelector('video.video-stream, video.html5-main-video');
-    const adContainer = document.querySelector('.video-ads.ytp-ad-module, .video-ads');
-    
-    if (!video || !adContainer) return;
+    const video = document.querySelector('video');
+    if (!video) return;
 
-    // Bulletproof Ad Validation: YouTube physically injects node elements into .video-ads ONLY when an ad is actively playing
-    // This entirely avoids the "lingering .ad-showing class" bug while surviving YouTube's A/B class renaming!
-    const isAd = adContainer.children.length > 0;
+    const player = document.querySelector('.html5-video-player');
+    if (!player) return;
+
+    // Use multiple signals to confirm an ad is truly playing
+    const adShowing = player.classList.contains('ad-showing');
+    const adContainer = document.querySelector('.video-ads');
+    const hasAdChildren = adContainer && adContainer.children.length > 0;
+
+    const isAd = adShowing || hasAdChildren;
 
     if (isAd) {
+      // Mute so user doesn't hear ad audio
       video.muted = true;
-      
-      // Fast Human Bypass: Instantly scrub to the exact end of the payload
-      if (!isNaN(video.duration) && video.duration > 0 && video.currentTime < video.duration - 0.5) {
+
+      // Fast-forward: scrub timeline to the very end
+      if (video.duration && video.duration > 0.5 && video.currentTime < video.duration - 0.5) {
         video.currentTime = video.duration - 0.1;
-        video.playbackRate = 16.0;
       }
+
+      // Also set max playback rate as backup
+      try { video.playbackRate = 16; } catch {}
 
       if (!lastAdState) {
         reportBlocked();
@@ -87,7 +81,7 @@
       clickSkipButton();
     } else {
       if (lastAdState) {
-        // Ad just ended — restore normal playback settings safely
+        // Ad ended — restore normal playback
         video.muted = false;
         try { video.playbackRate = 1; } catch {}
         lastAdState = false;
@@ -106,6 +100,7 @@
       'button.ytp-ad-skip-button',
       '.videoAdUiSkipButton',
       '.ytp-ad-skip-button-slot button',
+      '.ytp-ad-skip-button-container button',
     ];
 
     for (const sel of skipSelectors) {
@@ -118,6 +113,7 @@
     }
     return false;
   }
+
   /**
    * Report blocked ad to background
    */
@@ -129,11 +125,6 @@
   }
 
   // === INIT ===
-  if (!enabled) document.documentElement.setAttribute('data-adguard-disabled', 'true');
-  else document.documentElement.removeAttribute('data-adguard-disabled');
-
-  // Run checker on fast interval for instant blocking
   setInterval(checkForAds, 150);
 
-  console.log('[AdGuard] YouTube Fast-Human Ghost Mode active');
 })();

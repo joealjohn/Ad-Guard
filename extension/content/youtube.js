@@ -103,17 +103,20 @@
       });
     }
 
-    // 2. Ultra-stable Ad Scrubbing (No Buffer Starvation)
+    // 2. Precision Ad Scrubbing (Prevents Main Video Buffer Hangs)
     const player = document.querySelector('.html5-video-player');
     if (player && player.classList.contains('ad-showing')) {
       const video = document.querySelector('video');
-      if (video && !isNaN(video.duration)) {
-        // Pure fast-forward methodology. 
-        // We DO NOT mutate video.currentTime! Jumping the timestamp forces YouTube's internal 
-        // state machine to lose track of the ad, meaning it fails to transition back 
-        // to the main video when the ad ends (causing the permanent black screen).
-        // By setting playbackRate = 16, the ad naturally breezes through all events in ~1 second,
-        // guaranteeing a flawless transition back to your video.
+      
+      if (video && !isNaN(video.duration) && video.duration > 0) {
+        // If we are not already at the very end of the ad, instantly warp there.
+        // We leave 0.5 seconds remaining and let it fast-forward physically 
+        // through the final frames. This forces YouTube's internal engine to register 
+        // the 'ended' event legally, ensuring the main video loads immediately without freezing.
+        if (video.currentTime < video.duration - 1) {
+            video.currentTime = video.duration - 0.5;
+        }
+        
         video.muted = true;
         try { video.playbackRate = 16; } catch {}
         
@@ -135,6 +138,13 @@
       for (const sel of skipSelectors) {
         const btn = document.querySelector(sel);
         if (btn) btn.click();
+      }
+    } else {
+      // When NO ad is active, ensure we haven't accidentally left the main video fast-forwarded
+      // if the transition was slightly too fast.
+      const video = document.querySelector('video');
+      if (video && video.playbackRate === 16 && !video.ended) {
+        video.playbackRate = 1;
       }
     }
   }

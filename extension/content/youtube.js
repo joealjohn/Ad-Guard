@@ -86,13 +86,14 @@
     if (player && player.classList.contains('ad-showing')) {
       const video = document.querySelector('video');
       if (video && !isNaN(video.duration)) {
-        // Single-jump skip mechanism. 
-        // We do NOT use playbackRate=16 because it instantly exhausts the buffer on HD ads, causing a black screen freeze.
-        // We do NOT blindly set currentTime=duration every 10ms because that causes permanent seeking-lock loops.
-        // By checking if we are far from the end, we only command the jump ONCE, allowing the browser to transition flawlessly.
-        if (video.currentTime < video.duration - 1) {
-          video.currentTime = video.duration - 0.1;
-        }
+        // Pure fast-forward methodology. 
+        // We DO NOT mutate video.currentTime! Jumping the timestamp forces YouTube's internal 
+        // state machine to lose track of the ad, meaning it fails to transition back 
+        // to the main video when the ad ends (causing the permanent black screen).
+        // By setting playbackRate = 16, the ad naturally breezes through all events in ~1 second,
+        // guaranteeing a flawless transition back to your video.
+        video.muted = true;
+        try { video.playbackRate = 16; } catch {}
       }
 
       // Spam click any skip buttons the millisecond they render

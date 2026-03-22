@@ -1,33 +1,38 @@
-# AdGuard Chrome Extension - Security Audit Report
-**Date:** March 2026
-**Target Base:** Manifest V3
+# AdGuard — Security Audit Report v2
+**Date:** March 22, 2026  
+**Version:** 1.0.0 (Ghost Mode v2)
 
-## 1. Environment Isolation (Manifest V3)
-*   **Result: SECURE**
-*   The extension completely adheres to Google's strict Manifest V3 (MV3) architecture.
-*   **No Remote Code Execution:** The extension utilizes absolutely 0 external scripts, CDNs, or libraries. All code is executed locally.
-*   **No Unsafe-Eval:** The extension does not utilize `eval()`, `setTimeout(string)`, or any dynamic code generation that violates strict Content Security Policies (CSP).
+## Architecture Summary
+| Component | File | Purpose |
+|-----------|------|---------|
+| Manifest | `manifest.json` | MV3 config, permissions, content script registration |
+| Service Worker | `background.js` | State management, toggle/pause handlers, rule toggling |
+| YouTube Script | `youtube.js` | Auto-dismiss anti-adblock popup + fast-forward video ads |
+| Cosmetic Filter | `cosmetic.js` | Hide ad elements on non-YouTube sites |
+| Popup UI | `popup.html/js/css` | User controls: global toggle, per-site pause, theme |
+| Network Rules | `rules.json` | 315 declarativeNetRequest rules, all YouTube-excluded |
 
-## 2. Cross-Site Scripting (XSS) & DOM Vulnerabilities 
-*   **Result: SECURE**
-*   `youtube.js` and `cosmetic.js` parse the DOM strictly using native generic JavaScript querying (`querySelector`).
-*   No external HTML or unsanitized strings are ever piped into `.innerHTML()`, completely neutralizing any vector for DOM-Based XSS attacks.
-*   `popup.js` utilizes hard-coded SVG vectors for its theme injection engine, natively preventing cross-boundary data leaks.
+## Security Checklist
+- [x] **No inline script injection** — All scripts loaded via manifest, CSP-compliant
+- [x] **No eval/Function constructor** — Zero dynamic code execution
+- [x] **No remote code loading** — All logic is local, no external fetches
+- [x] **No prototype pollution** — No overwrites of `window.fetch`, `XMLHttpRequest`, etc.
+- [x] **No custom DOM attributes** — Zero `data-*` fingerprints on `document.documentElement`
+- [x] **No console output** — Zero `console.log` calls in content scripts
+- [x] **No CSS injection on YouTube** — `cosmetic.js` excluded via `exclude_matches`
+- [x] **All message handlers async-safe** — Every handler returns `true` for async `sendResponse`
+- [x] **Error boundaries everywhere** — All Chrome API calls wrapped in `try/catch`
+- [x] **Minimal permissions** — Only `declarativeNetRequest`, `storage`, `tabs`, `activeTab`
+- [x] **YouTube network exclusions** — All 315 rules exclude YouTube via `excludedInitiatorDomains` AND `excludedRequestDomains`
 
-## 3. Storage & Data Persistence
-*   **Result: SECURE**
-*   The extension limits its use of `chrome.storage.local` to strictly primitive data types (booleans for theme states and integers for ad-blocking metrics).
-*   No identifiable tracking markers, cookies, or user sessions are read, stored, or transmitted.
+## Toggle Button Verification
+- [x] **Global Toggle:** `popup.js` → `TOGGLE` → `background.js` flips `state.enabled` → broadcasts `STATE_CHANGED` to all tabs → `youtube.js` updates internal `enabled` boolean → ad loop stops/starts
+- [x] **Pause on Site:** `popup.js` → `TOGGLE_SITE_PAUSE` → `background.js` updates `pausedSites` array + creates dynamic `allowAllRequests` rules → reloads tab → `youtube.js` reads `pausedSites` on init
+- [x] **Theme Toggle:** Purely local CSS swap, no external communication needed
 
-## 4. Origin Boundaries & Prototype Pollution
-*   **Result: SECURE**
-*   The `interceptor.js` script actively hooks `window.fetch` and `XMLHttpRequest.prototype.open`, but securely restricts execution exclusively to the `youtube.com` origin namespace. 
-*   Variables injected into the MAIN world are isolated and stripped to prevent cyclic payload loops.
-
-## 5. Network Request Firewall (DNR)
-*   **Result: SECURE**
-*   The custom "Pause on this site" toggle safely generates Dynamic Rules routing through Chrome's native highly-optimized `DeclarativeNetRequest` engine instead of manual `webRequest` blocking headers, massively mitigating memory leakage.
-
----
-**Verdict:** 
-The AdGuard extension codebase is fundamentally sterile, adhering entirely to enterprise-client architecture standards. It is cleared for immediate local packaging or Web Store publishing.
+## Files Deleted (Cleanup)
+- `add_rules.js` — One-time build script, not part of extension
+- `build_rules.js` — One-time build script, not part of extension
+- `whitelist_youtube.js` — One-time utility, not part of extension
+- `fix_youtube_rules.js` — One-time utility, not part of extension
+- `AdsGuard.zip` — Stale packaging artifact

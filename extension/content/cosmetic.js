@@ -23,9 +23,7 @@
       
       if (!enabled || isPaused) {
         enabled = false;
-        document.documentElement.setAttribute('data-adguard-disabled', 'true');
       } else {
-        document.documentElement.removeAttribute('data-adguard-disabled');
         init();
       }
     });

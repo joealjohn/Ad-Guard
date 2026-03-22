@@ -3148,5 +3148,25 @@
     "condition": {
       "urlFilter": "*/ad_*.png"
     }
+  },
+  {
+    "id": 316,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||12ezo5v60.com"
+    }
+  },
+  {
+    "id": 317,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||ybs2ffs7v.com"
+    }
   }
 ]

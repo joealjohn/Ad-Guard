@@ -1,8 +1,17 @@
-# 🛡️ AdGuard pro — Ghost Mode Edition
+<div align="center">
+  <img src="extension/icons/icon128.png" alt="AdGuard Logo" width="120" />
+  <h1>AdGuard Pro</h1>
+  <p><strong>The ultimate, undetectable Chrome extension designed specifically to bypass modern anti-adblock restrictions with zero player crashes.</strong></p>
 
-The ultimate, undetectable Chrome extension designed specifically to bypass modern anti-adblock restrictions with zero player crashes. Built around a robust Manifest V3 architecture, AdGuard pro utilizes advanced sub-frame DOM scrubbing to seamlessly vaporize ads without triggering catastrophic video freezes.
-
-> **Status:** Stable — 100% Crash-Proof against YouTube's 2025/2026 Anti-Adblock Systems.
+  <!-- Badges -->
+  <p>
+    <img src="https://img.shields.io/badge/Version-1.0.0-blue?style=flat-square&logo=googlechrome" alt="Version" />
+    <img src="https://img.shields.io/badge/Platform-Chrome%20%7C%20Edge%20%7C%20Brave-green?style=flat-square" alt="Platform" />
+    <img src="https://img.shields.io/badge/Manifest-V3-orange?style=flat-square" alt="Manifest V3" />
+    <img src="https://img.shields.io/badge/License-MIT-red?style=flat-square" alt="License" />
+    <img src="https://img.shields.io/badge/Status-100%25%20Crash--Proof-success?style=flat-square" alt="Status" />
+  </p>
+</div>
 
 ---
 

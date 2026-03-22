@@ -17,11 +17,11 @@
 
 ## ✨ Key Features
 
-### 👻 Ghost Mode (0.2s Ultra-Fast YouTube Bypass)
+### 👻 Ghost Mode (0.6s Ultra-Fast YouTube Bypass)
 Unlike legacy adblockers that recklessly intercept backend API requests (which YouTube actively detects and punishes with permanent black screens), Ghost Mode uses **Precision Timeline Scrubbing** combined with a **Visual Blackout Shield**.
 - The exact millisecond an unskippable video ad appears, the extension drops a sleek pitch-black "Skipping Ad..." screen over the player so you never see a flicker of the ad.
-- Underneath the shield, the internal video timestamp is instantly warped to exactly `0.2` seconds before the ad ends, and then naturally accelerated at `16.0x` speed.
-- This ultra-tight `0.2s` threshold forces the ad to legitimately "complete" according to the browser's native event listeners in a fraction of a second. YouTube's server-side validation (SSAI) accepts the completion and flawlessly loads your main video. **Zero buffering freezes. Zero black screens.**
+- Underneath the shield, the internal video timestamp is instantly warped to exactly `0.6` seconds before the ad ends, and then naturally accelerated at `16.0x` speed.
+- This tight `0.6s` threshold forces the ad to legitimately "complete" according to the browser's native event listeners. YouTube's server-side validation (SSAI) accepts the completion and flawlessly loads your main video. **Zero buffering freezes. Zero black screens.**
 
 ### 🗡️ Deep Cosmetic Sweeps
 A lightweight, global CSS injector wipes out structural UI ads before the DOM even begins rendering on your screen.

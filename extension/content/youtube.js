@@ -109,11 +109,12 @@
       const video = document.querySelector('video');
       
       if (video && !isNaN(video.duration) && video.duration > 0) {
-        // We leave 0.2 seconds remaining and let it fast-forward physically 
+        // We leave 0.6 seconds remaining and let it fast-forward physically 
         // through the final frames. This forces YouTube's internal engine to register 
         // the 'ended' event legally, ensuring the main video loads immediately without freezing!
+        // 0.2s was proven too aggressive for slower network connections.
         if (video.currentTime < video.duration - 1) {
-            video.currentTime = video.duration - 0.2;
+            video.currentTime = video.duration - 0.6;
         }
         
         video.muted = true;

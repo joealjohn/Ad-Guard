@@ -31,27 +31,6 @@
       ytd-search-pyv-renderer,
       ytd-action-companion-ad-renderer
       { display: none !important; }
-
-      /* Ghost Mode Blackout Shield: Hides the 16x fast-forward flicker */
-      .html5-video-player.ad-showing::after {
-        content: "Skipping Ad...";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-color: #000 !important;
-        color: #fff !important;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 24px;
-        font-weight: bold;
-        font-family: 'Roboto', Arial, sans-serif;
-        z-index: 999999 !important;
-        pointer-events: none !important;
-        letter-spacing: 1.5px;
-      }
     `;
     (document.head || document.documentElement).appendChild(style);
   }
@@ -109,10 +88,6 @@
       const video = document.querySelector('video');
       
       if (video && !isNaN(video.duration) && video.duration > 0) {
-        // We leave 0.6 seconds remaining and let it fast-forward physically 
-        // through the final frames. This forces YouTube's internal engine to register 
-        // the 'ended' event legally, ensuring the main video loads immediately without freezing!
-        // 0.2s was proven too aggressive for slower network connections.
         if (video.currentTime < video.duration - 1) {
             video.currentTime = video.duration - 0.6;
         }

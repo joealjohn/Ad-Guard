@@ -54,15 +54,20 @@
     // 2. Ultra-fast ad skip
     const isAd = document.querySelector('.ad-showing');
     if (isAd) {
-      const videos = document.querySelectorAll('video');
-      videos.forEach(video => {
-        if (!isNaN(video.duration)) {
-          video.muted = true;
-          video.playbackRate = 16;
-          // Set to exactly the end to force the 'ended' event instantly
-          video.currentTime = video.duration;
+      // ONLY target the main video player, not hidden tracking videos
+      const video = document.querySelector('.html5-main-video');
+      if (video && !isNaN(video.duration)) {
+        video.muted = true;
+        video.playbackRate = 16;
+        
+        // CRITICAL BUGFIX: Never scrub to exact 'video.duration'.
+        // Doing so often causes YouTube's MSE buffer to hang indefinitely
+        // waiting for non-existent chunk data, resulting in a black screen.
+        // Leaving a 0.1s buffer allows native 'ended' events to fire smoothly.
+        if (video.currentTime < video.duration - 0.5) {
+          video.currentTime = video.duration - 0.1;
         }
-      });
+      }
 
       // Spam click any skip buttons
       const skipSelectors = [

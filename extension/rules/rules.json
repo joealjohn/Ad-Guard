@@ -6,21 +6,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||doubleclick.net",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||doubleclick.net"
     }
   },
   {
@@ -30,21 +16,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||googlesyndication.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||googlesyndication.com"
     }
   },
   {
@@ -54,21 +26,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||googleadservices.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||googleadservices.com"
     }
   },
   {
@@ -78,21 +36,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||adservice.google.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||adservice.google.com"
     }
   },
   {
@@ -102,21 +46,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||ads.google.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||ads.google.com"
     }
   },
   {
@@ -126,21 +56,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||ad.doubleclick.net",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||ad.doubleclick.net"
     }
   },
   {
@@ -150,21 +66,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||amazon-adsystem.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||amazon-adsystem.com"
     }
   },
   {
@@ -174,21 +76,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||adnxs.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||adnxs.com"
     }
   },
   {
@@ -198,21 +86,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||adsrvr.org",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||adsrvr.org"
     }
   },
   {
@@ -222,21 +96,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||rubiconproject.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||rubiconproject.com"
     }
   },
   {
@@ -246,21 +106,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||pubmatic.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||pubmatic.com"
     }
   },
   {
@@ -270,21 +116,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||taboola.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||taboola.com"
     }
   },
   {
@@ -294,21 +126,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||outbrain.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||outbrain.com"
     }
   },
   {
@@ -318,21 +136,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||criteo.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||criteo.com"
     }
   },
   {
@@ -342,21 +146,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||moatads.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||moatads.com"
     }
   },
   {
@@ -366,21 +156,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||google-analytics.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||google-analytics.com"
     }
   },
   {
@@ -390,21 +166,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||googletagmanager.com/gtm.js",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||googletagmanager.com/gtm.js"
     }
   },
   {
@@ -414,21 +176,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||googletagservices.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||googletagservices.com"
     }
   },
   {
@@ -438,21 +186,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||scorecardresearch.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||scorecardresearch.com"
     }
   },
   {
@@ -462,21 +196,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||quantserve.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||quantserve.com"
     }
   },
   {
@@ -486,21 +206,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||hotjar.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||hotjar.com"
     }
   },
   {
@@ -510,21 +216,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||mixpanel.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||mixpanel.com"
     }
   },
   {
@@ -534,21 +226,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||ads.yahoo.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||ads.yahoo.com"
     }
   },
   {
@@ -558,21 +236,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||advertising.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||advertising.com"
     }
   },
   {
@@ -582,21 +246,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||media.net",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||media.net"
     }
   },
   {
@@ -606,21 +256,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||popads.net",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||popads.net"
     }
   },
   {
@@ -630,21 +266,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||propellerads.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||propellerads.com"
     }
   },
   {
@@ -654,21 +276,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||revcontent.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||revcontent.com"
     }
   },
   {
@@ -678,21 +286,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||zedo.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||zedo.com"
     }
   },
   {
@@ -702,21 +296,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||adroll.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||adroll.com"
     }
   },
   {
@@ -726,21 +306,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||serving-sys.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||serving-sys.com"
     }
   },
   {
@@ -750,21 +316,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||bidswitch.net",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||bidswitch.net"
     }
   },
   {
@@ -774,21 +326,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||openx.net",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||openx.net"
     }
   },
   {
@@ -798,21 +336,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||casalemedia.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||casalemedia.com"
     }
   },
   {
@@ -822,21 +346,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||smartadserver.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||smartadserver.com"
     }
   },
   {
@@ -846,21 +356,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tracking.exposed",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||tracking.exposed"
     }
   },
   {
@@ -870,21 +366,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||sentry.io",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||sentry.io"
     }
   },
   {
@@ -894,21 +376,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||bugsnag.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||bugsnag.com"
     }
   },
   {
@@ -918,21 +386,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||mouseflow.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||mouseflow.com"
     }
   },
   {
@@ -942,21 +396,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||freshmarketer.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||freshmarketer.com"
     }
   },
   {
@@ -966,21 +406,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||luckyorange.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||luckyorange.com"
     }
   },
   {
@@ -990,21 +416,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||inspectlet.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||inspectlet.com"
     }
   },
   {
@@ -1014,21 +426,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||vwo.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||vwo.com"
     }
   },
   {
@@ -1038,21 +436,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||contentsquare.net",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||contentsquare.net"
     }
   },
   {
@@ -1062,21 +446,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||crazyegg.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||crazyegg.com"
     }
   },
   {
@@ -1086,21 +456,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||fullstory.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||fullstory.com"
     }
   },
   {
@@ -1110,21 +466,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||smartlook.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||smartlook.com"
     }
   },
   {
@@ -1134,21 +476,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||mc.yandex.ru",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||mc.yandex.ru"
     }
   },
   {
@@ -1158,21 +486,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||amplitude.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||amplitude.com"
     }
   },
   {
@@ -1182,21 +496,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||segment.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||segment.com"
     }
   },
   {
@@ -1206,21 +506,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||branch.io",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||branch.io"
     }
   },
   {
@@ -1230,21 +516,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||appsflyer.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||appsflyer.com"
     }
   },
   {
@@ -1254,21 +526,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||kochava.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||kochava.com"
     }
   },
   {
@@ -1278,21 +536,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||adjust.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||adjust.com"
     }
   },
   {
@@ -1302,21 +546,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||clarity.ms",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||clarity.ms"
     }
   },
   {
@@ -1326,21 +556,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||creative-serving.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||creative-serving.com"
     }
   },
   {
@@ -1350,21 +566,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||adsymptotic.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||adsymptotic.com"
     }
   },
   {
@@ -1374,21 +576,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||adform.net",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||adform.net"
     }
   },
   {
@@ -1398,21 +586,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||adtechus.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||adtechus.com"
     }
   },
   {
@@ -1422,21 +596,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||yieldmo.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||yieldmo.com"
     }
   },
   {
@@ -1446,21 +606,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||exponential.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||exponential.com"
     }
   },
   {
@@ -1470,21 +616,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||lijit.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||lijit.com"
     }
   },
   {
@@ -1494,21 +626,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||onesignal.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||onesignal.com"
     }
   },
   {
@@ -1518,21 +636,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||pushwoosh.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||pushwoosh.com"
     }
   },
   {
@@ -1542,21 +646,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||airship.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||airship.com"
     }
   },
   {
@@ -1566,21 +656,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||braze.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||braze.com"
     }
   },
   {
@@ -1590,21 +666,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||clevertap.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||clevertap.com"
     }
   },
   {
@@ -1614,21 +676,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||moengage.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||moengage.com"
     }
   },
   {
@@ -1638,21 +686,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||leanplum.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||leanplum.com"
     }
   },
   {
@@ -1662,21 +696,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||flurry.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||flurry.com"
     }
   },
   {
@@ -1686,21 +706,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||newrelic.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||newrelic.com"
     }
   },
   {
@@ -1710,21 +716,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||datadoghq-browser-agent.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||datadoghq-browser-agent.com"
     }
   },
   {
@@ -1734,21 +726,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||raygun.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||raygun.com"
     }
   },
   {
@@ -1758,21 +736,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||rollbar.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||rollbar.com"
     }
   },
   {
@@ -1782,21 +746,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||logrocket.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||logrocket.com"
     }
   },
   {
@@ -1806,21 +756,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||statcounter.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||statcounter.com"
     }
   },
   {
@@ -1830,21 +766,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||histats.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||histats.com"
     }
   },
   {
@@ -1854,21 +776,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||gemius.pl",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||gemius.pl"
     }
   },
   {
@@ -1878,21 +786,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||2mdn.net",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||2mdn.net"
     }
   },
   {
@@ -1902,21 +796,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||admarvel.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||admarvel.com"
     }
   },
   {
@@ -1926,21 +806,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||admob.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||admob.com"
     }
   },
   {
@@ -1950,21 +816,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||applovin.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||applovin.com"
     }
   },
   {
@@ -1974,21 +826,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||chartboost.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||chartboost.com"
     }
   },
   {
@@ -1998,21 +836,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||inmobi.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||inmobi.com"
     }
   },
   {
@@ -2022,21 +846,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||ironsrc.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||ironsrc.com"
     }
   },
   {
@@ -2046,21 +856,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tapjoy.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||tapjoy.com"
     }
   },
   {
@@ -2070,21 +866,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||unity3d.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||unity3d.com"
     }
   },
   {
@@ -2094,21 +876,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||vungle.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||vungle.com"
     }
   },
   {
@@ -2118,21 +886,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||adcolony.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||adcolony.com"
     }
   },
   {
@@ -2142,21 +896,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||smaato.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||smaato.com"
     }
   },
   {
@@ -2166,21 +906,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||startapp.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||startapp.com"
     }
   },
   {
@@ -2190,21 +916,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||demdex.net",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||demdex.net"
     }
   },
   {
@@ -2214,21 +926,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||omtrdc.net",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||omtrdc.net"
     }
   },
   {
@@ -2238,21 +936,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||everesttech.net",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||everesttech.net"
     }
   },
   {
@@ -2262,21 +946,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||krxd.net",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||krxd.net"
     }
   },
   {
@@ -2286,21 +956,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||addthis.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||addthis.com"
     }
   },
   {
@@ -2310,21 +966,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||sharethis.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||sharethis.com"
     }
   },
   {
@@ -2334,21 +976,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||teads.tv",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||teads.tv"
     }
   },
   {
@@ -2358,21 +986,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||spotxchange.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||spotxchange.com"
     }
   },
   {
@@ -2382,21 +996,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tremorhub.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||tremorhub.com"
     }
   },
   {
@@ -2406,21 +1006,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||unruly.co",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||unruly.co"
     }
   },
   {
@@ -2430,21 +1016,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||indexexchange.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||indexexchange.com"
     }
   },
   {
@@ -2454,21 +1026,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||sovrn.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||sovrn.com"
     }
   },
   {
@@ -2478,21 +1036,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||triplelift.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||triplelift.com"
     }
   },
   {
@@ -2502,21 +1046,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||shareaholic.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||shareaholic.com"
     }
   },
   {
@@ -2526,21 +1056,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||outbrainimg.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||outbrainimg.com"
     }
   },
   {
@@ -2550,21 +1066,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||taboolasyndication.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||taboolasyndication.com"
     }
   },
   {
@@ -2574,21 +1076,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||postrelease.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||postrelease.com"
     }
   },
   {
@@ -2598,21 +1086,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||zemanta.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||zemanta.com"
     }
   },
   {
@@ -2622,21 +1096,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||stroeerdigitalmedia.de",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||stroeerdigitalmedia.de"
     }
   },
   {
@@ -2646,21 +1106,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||ligatus.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||ligatus.com"
     }
   },
   {
@@ -2670,21 +1116,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||plista.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||plista.com"
     }
   },
   {
@@ -2694,21 +1126,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||ads-twitter.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||ads-twitter.com"
     }
   },
   {
@@ -2718,21 +1136,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||analytics.twitter.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||analytics.twitter.com"
     }
   },
   {
@@ -2742,21 +1146,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||ads.pinterest.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||ads.pinterest.com"
     }
   },
   {
@@ -2766,21 +1156,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||ads.linkedin.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||ads.linkedin.com"
     }
   },
   {
@@ -2790,21 +1166,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||snapads.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||snapads.com"
     }
   },
   {
@@ -2814,21 +1176,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||ads.tiktok.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||ads.tiktok.com"
     }
   },
   {
@@ -2838,21 +1186,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||byteoversea.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||byteoversea.com"
     }
   },
   {
@@ -2862,21 +1196,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||ads.reddit.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||ads.reddit.com"
     }
   },
   {
@@ -2886,21 +1206,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||a-mo.net",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||a-mo.net"
     }
   },
   {
@@ -2910,21 +1216,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||imrworldwide.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||imrworldwide.com"
     }
   },
   {
@@ -2934,21 +1226,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||bluekai.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||bluekai.com"
     }
   },
   {
@@ -2958,21 +1236,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||mathtag.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||mathtag.com"
     }
   },
   {
@@ -2982,21 +1246,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||dotomi.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||dotomi.com"
     }
   },
   {
@@ -3006,21 +1256,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||bkrtx.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||bkrtx.com"
     }
   },
   {
@@ -3030,21 +1266,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||rlcdn.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||rlcdn.com"
     }
   },
   {
@@ -3054,21 +1276,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tapad.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||tapad.com"
     }
   },
   {
@@ -3078,21 +1286,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||exelator.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||exelator.com"
     }
   },
   {
@@ -3102,21 +1296,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||w55c.net",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||w55c.net"
     }
   },
   {
@@ -3126,21 +1306,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||ads.pubmatic.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||ads.pubmatic.com"
     }
   },
   {
@@ -3150,21 +1316,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||facebook.net",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||facebook.net"
     }
   },
   {
@@ -3174,21 +1326,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*pagead*",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "*pagead*"
     }
   },
   {
@@ -3198,21 +1336,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||pagead2.googlesyndication.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||pagead2.googlesyndication.com"
     }
   },
   {
@@ -3222,21 +1346,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*adformat=*",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "*adformat=*"
     }
   },
   {
@@ -3246,21 +1356,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*google-analytics*",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "*google-analytics*"
     }
   },
   {
@@ -3270,21 +1366,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*ad-delivery*",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "*ad-delivery*"
     }
   },
   {
@@ -3294,21 +1376,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*analytics.js",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "*analytics.js"
     }
   },
   {
@@ -3318,21 +1386,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*telemetry*",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "*telemetry*"
     }
   },
   {
@@ -3342,21 +1396,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*ads.js",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "*ads.js"
     }
   },
   {
@@ -3366,21 +1406,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||fastclick.net",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||fastclick.net"
     }
   },
   {
@@ -3390,21 +1416,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||fastclick.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||fastclick.com"
     }
   },
   {
@@ -3414,21 +1426,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||stats.wp.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||stats.wp.com"
     }
   },
   {
@@ -3438,21 +1436,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||metrics.apple.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||metrics.apple.com"
     }
   },
   {
@@ -3462,21 +1446,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||securemetrics.apple.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||securemetrics.apple.com"
     }
   },
   {
@@ -3486,21 +1456,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||supportmetrics.apple.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||supportmetrics.apple.com"
     }
   },
   {
@@ -3510,21 +1466,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||metrics.icloud.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||metrics.icloud.com"
     }
   },
   {
@@ -3534,21 +1476,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||metrics.mzstatic.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||metrics.mzstatic.com"
     }
   },
   {
@@ -3558,21 +1486,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tracking.miui.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||tracking.miui.com"
     }
   },
   {
@@ -3582,21 +1496,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||data.mistat.xiaomi.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||data.mistat.xiaomi.com"
     }
   },
   {
@@ -3606,21 +1506,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||metrics.data.hicloud.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||metrics.data.hicloud.com"
     }
   },
   {
@@ -3630,21 +1516,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||log.bgp.huawei.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||log.bgp.huawei.com"
     }
   },
   {
@@ -3654,21 +1526,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||open.oneplus.net",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||open.oneplus.net"
     }
   },
   {
@@ -3678,21 +1536,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||samsungacr.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||samsungacr.com"
     }
   },
   {
@@ -3702,21 +1546,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||samsungcloudsolution.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||samsungcloudsolution.com"
     }
   },
   {
@@ -3726,21 +1556,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||aan.amazon.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||aan.amazon.com"
     }
   },
   {
@@ -3750,21 +1566,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||static.criteo.net",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||static.criteo.net"
     }
   },
   {
@@ -3774,21 +1576,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||mgid.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||mgid.com"
     }
   },
   {
@@ -3798,21 +1586,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||cdn.mgid.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||cdn.mgid.com"
     }
   },
   {
@@ -3822,21 +1596,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||servicer.mgid.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||servicer.mgid.com"
     }
   },
   {
@@ -3846,21 +1606,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||bingads.microsoft.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||bingads.microsoft.com"
     }
   },
   {
@@ -3870,21 +1616,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||ads.microsoft.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||ads.microsoft.com"
     }
   },
   {
@@ -3894,21 +1626,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||appmetrica.yandex.ru",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||appmetrica.yandex.ru"
     }
   },
   {
@@ -3918,21 +1636,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||init.supersonicads.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||init.supersonicads.com"
     }
   },
   {
@@ -3942,21 +1646,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||api.fyber.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||api.fyber.com"
     }
   },
   {
@@ -3966,21 +1656,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||ironSource.mobi",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||ironSource.mobi"
     }
   },
   {
@@ -3990,21 +1666,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||outcome-ssp.supersonicads.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||outcome-ssp.supersonicads.com"
     }
   },
   {
@@ -4014,21 +1676,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||smartyads.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||smartyads.com"
     }
   },
   {
@@ -4038,21 +1686,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||ad.gt",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||ad.gt"
     }
   },
   {
@@ -4062,21 +1696,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||eb2.3lift.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||eb2.3lift.com"
     }
   },
   {
@@ -4086,21 +1706,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tlx.3lift.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||tlx.3lift.com"
     }
   },
   {
@@ -4110,21 +1716,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||apex.go.sonobi.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||apex.go.sonobi.com"
     }
   },
   {
@@ -4134,21 +1726,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||c.gumgum.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||c.gumgum.com"
     }
   },
   {
@@ -4158,21 +1736,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||cdn.kargo.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||cdn.kargo.com"
     }
   },
   {
@@ -4182,21 +1746,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||sync.kargo.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||sync.kargo.com"
     }
   },
   {
@@ -4206,21 +1756,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||pangleglobal.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||pangleglobal.com"
     }
   },
   {
@@ -4230,21 +1766,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||doubleverify.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||doubleverify.com"
     }
   },
   {
@@ -4254,21 +1776,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||pixel.adsafeprotected.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||pixel.adsafeprotected.com"
     }
   },
   {
@@ -4278,21 +1786,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||static.adsafeprotected.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||static.adsafeprotected.com"
     }
   },
   {
@@ -4302,21 +1796,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||fw.adsafeprotected.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||fw.adsafeprotected.com"
     }
   },
   {
@@ -4326,21 +1806,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||analytics.google.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||analytics.google.com"
     }
   },
   {
@@ -4350,21 +1816,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||click.googleanalytics.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||click.googleanalytics.com"
     }
   },
   {
@@ -4374,21 +1826,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||googletagmanager.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||googletagmanager.com"
     }
   },
   {
@@ -4398,21 +1836,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||www.googletagmanager.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||www.googletagmanager.com"
     }
   },
   {
@@ -4422,21 +1846,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||cdn.heapanalytics.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||cdn.heapanalytics.com"
     }
   },
   {
@@ -4446,21 +1856,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||api.segment.io",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||api.segment.io"
     }
   },
   {
@@ -4470,21 +1866,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||fingerprintjs.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||fingerprintjs.com"
     }
   },
   {
@@ -4494,21 +1876,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||fpjs.io",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||fpjs.io"
     }
   },
   {
@@ -4518,21 +1886,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||api.fpjs.io",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||api.fpjs.io"
     }
   },
   {
@@ -4542,21 +1896,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||cdn.siftscience.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||cdn.siftscience.com"
     }
   },
   {
@@ -4566,21 +1906,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||permutive.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||permutive.com"
     }
   },
   {
@@ -4590,21 +1916,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||cdn.permutive.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||cdn.permutive.com"
     }
   },
   {
@@ -4614,21 +1926,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||pippio.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||pippio.com"
     }
   },
   {
@@ -4638,21 +1936,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||id5-sync.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||id5-sync.com"
     }
   },
   {
@@ -4662,21 +1946,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||bnc.lt",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||bnc.lt"
     }
   },
   {
@@ -4686,21 +1956,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||wzrkt.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||wzrkt.com"
     }
   },
   {
@@ -4710,21 +1966,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||clevertap-prod.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||clevertap-prod.com"
     }
   },
   {
@@ -4734,21 +1976,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||browser.sentry-cdn.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||browser.sentry-cdn.com"
     }
   },
   {
@@ -4758,21 +1986,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||bam.nr-data.net",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||bam.nr-data.net"
     }
   },
   {
@@ -4782,21 +1996,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||www.coinimp.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||www.coinimp.com"
     }
   },
   {
@@ -4806,21 +2006,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||mineralt.io",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||mineralt.io"
     }
   },
   {
@@ -4830,21 +2016,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||crypto-loot.org",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||crypto-loot.org"
     }
   },
   {
@@ -4854,21 +2026,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||popcash.net",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||popcash.net"
     }
   },
   {
@@ -4878,21 +2036,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||2giga.link",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||2giga.link"
     }
   },
   {
@@ -4902,21 +2046,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||statdynamic.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||statdynamic.com"
     }
   },
   {
@@ -4926,21 +2056,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||pixel.facebook.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||pixel.facebook.com"
     }
   },
   {
@@ -4950,21 +2066,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||an.facebook.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||an.facebook.com"
     }
   },
   {
@@ -4974,21 +2076,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||graph.facebook.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||graph.facebook.com"
     }
   },
   {
@@ -4998,21 +2086,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tr.facebook.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||tr.facebook.com"
     }
   },
   {
@@ -5022,21 +2096,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||graph.instagram.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||graph.instagram.com"
     }
   },
   {
@@ -5046,21 +2106,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||i.instagram.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||i.instagram.com"
     }
   },
   {
@@ -5070,21 +2116,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tr.snapchat.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||tr.snapchat.com"
     }
   },
   {
@@ -5094,21 +2126,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||sc-analytics.appspot.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||sc-analytics.appspot.com"
     }
   },
   {
@@ -5118,21 +2136,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||ads-api.x.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||ads-api.x.com"
     }
   },
   {
@@ -5142,21 +2146,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||ads.x.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||ads.x.com"
     }
   },
   {
@@ -5166,21 +2156,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||events.reddit.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||events.reddit.com"
     }
   },
   {
@@ -5190,21 +2166,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||events.redditmedia.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||events.redditmedia.com"
     }
   },
   {
@@ -5214,21 +2176,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||d.reddit.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||d.reddit.com"
     }
   },
   {
@@ -5238,21 +2186,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||ads-api.tiktok.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||ads-api.tiktok.com"
     }
   },
   {
@@ -5262,21 +2196,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||analytics.tiktok.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||analytics.tiktok.com"
     }
   },
   {
@@ -5286,21 +2206,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||ads-sg.tiktok.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||ads-sg.tiktok.com"
     }
   },
   {
@@ -5310,21 +2216,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||analytics-sg.tiktok.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||analytics-sg.tiktok.com"
     }
   },
   {
@@ -5334,21 +2226,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||business-api.tiktok.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||business-api.tiktok.com"
     }
   },
   {
@@ -5358,21 +2236,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||ct.pinterest.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||ct.pinterest.com"
     }
   },
   {
@@ -5382,21 +2246,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||log.pinterest.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||log.pinterest.com"
     }
   },
   {
@@ -5406,21 +2256,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||trk.pinterest.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||trk.pinterest.com"
     }
   },
   {
@@ -5430,21 +2266,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||pixel.quora.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||pixel.quora.com"
     }
   },
   {
@@ -5454,21 +2276,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||ads.vk.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||ads.vk.com"
     }
   },
   {
@@ -5478,21 +2286,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||api-adservices.apple.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||api-adservices.apple.com"
     }
   },
   {
@@ -5502,21 +2296,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||books-analytics-events.apple.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||books-analytics-events.apple.com"
     }
   },
   {
@@ -5526,21 +2306,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||weather-analytics-events.apple.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||weather-analytics-events.apple.com"
     }
   },
   {
@@ -5550,21 +2316,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||notes-analytics-events.apple.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||notes-analytics-events.apple.com"
     }
   },
   {
@@ -5574,21 +2326,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||xp.apple.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||xp.apple.com"
     }
   },
   {
@@ -5598,21 +2336,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||bdapi-ads.realmemobile.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||bdapi-ads.realmemobile.com"
     }
   },
   {
@@ -5622,21 +2346,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||bdapi-in-ads.realmemobile.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||bdapi-in-ads.realmemobile.com"
     }
   },
   {
@@ -5646,21 +2356,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||adsfs.oppomobile.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||adsfs.oppomobile.com"
     }
   },
   {
@@ -5670,21 +2366,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||adx.ads.oppomobile.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||adx.ads.oppomobile.com"
     }
   },
   {
@@ -5694,21 +2376,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||data.ads.oppomobile.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||data.ads.oppomobile.com"
     }
   },
   {
@@ -5718,21 +2386,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||metrics2.data.hicloud.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||metrics2.data.hicloud.com"
     }
   },
   {
@@ -5742,21 +2396,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||grs.hicloud.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||grs.hicloud.com"
     }
   },
   {
@@ -5766,21 +2406,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||logservice.hicloud.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||logservice.hicloud.com"
     }
   },
   {
@@ -5790,21 +2416,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||logservice1.hicloud.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||logservice1.hicloud.com"
     }
   },
   {
@@ -5814,21 +2426,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||logbak.hicloud.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||logbak.hicloud.com"
     }
   },
   {
@@ -5838,21 +2436,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||ads.huawei.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||ads.huawei.com"
     }
   },
   {
@@ -5862,21 +2446,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||api.ad.xiaomi.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||api.ad.xiaomi.com"
     }
   },
   {
@@ -5886,21 +2456,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||data.mistat.india.xiaomi.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||data.mistat.india.xiaomi.com"
     }
   },
   {
@@ -5910,21 +2466,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||sdkconfig.ad.xiaomi.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||sdkconfig.ad.xiaomi.com"
     }
   },
   {
@@ -5934,21 +2476,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||sdkconfig.ad.intl.xiaomi.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||sdkconfig.ad.intl.xiaomi.com"
     }
   },
   {
@@ -5958,21 +2486,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tracking.rus.miui.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||tracking.rus.miui.com"
     }
   },
   {
@@ -5982,21 +2496,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||smetrics.samsung.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||smetrics.samsung.com"
     }
   },
   {
@@ -6006,21 +2506,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||samsung-com.112.2o7.net",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||samsung-com.112.2o7.net"
     }
   },
   {
@@ -6030,21 +2516,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||config.samsungads.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||config.samsungads.com"
     }
   },
   {
@@ -6054,21 +2526,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||us.info.lgsmartad.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||us.info.lgsmartad.com"
     }
   },
   {
@@ -6078,21 +2536,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||ngfts.lge.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||ngfts.lge.com"
     }
   },
   {
@@ -6102,21 +2546,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||smartclip.net",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||smartclip.net"
     }
   },
   {
@@ -6126,21 +2556,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||settings-win.data.microsoft.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||settings-win.data.microsoft.com"
     }
   },
   {
@@ -6150,21 +2566,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||device-metrics-us.amazon.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||device-metrics-us.amazon.com"
     }
   },
   {
@@ -6174,21 +2576,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||device-metrics-us-2.amazon.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||device-metrics-us-2.amazon.com"
     }
   },
   {
@@ -6198,21 +2586,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||mads-eu.amazon.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||mads-eu.amazon.com"
     }
   },
   {
@@ -6222,21 +2596,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||ads.roku.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||ads.roku.com"
     }
   },
   {
@@ -6246,21 +2606,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||app-measurement.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||app-measurement.com"
     }
   },
   {
@@ -6270,21 +2616,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||firebase-settings.crashlytics.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||firebase-settings.crashlytics.com"
     }
   },
   {
@@ -6294,21 +2626,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||geolocation.onetrust.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||geolocation.onetrust.com"
     }
   },
   {
@@ -6318,21 +2636,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||consent.cookiebot.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||consent.cookiebot.com"
     }
   },
   {
@@ -6342,21 +2646,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||cookiebot.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||cookiebot.com"
     }
   },
   {
@@ -6366,21 +2656,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||consent.trustarc.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||consent.trustarc.com"
     }
   },
   {
@@ -6390,21 +2666,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||sdk.privacy-center.org",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||sdk.privacy-center.org"
     }
   },
   {
@@ -6414,21 +2676,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||cdn.privacy-mgmt.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||cdn.privacy-mgmt.com"
     }
   },
   {
@@ -6438,21 +2686,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||app.usercentrics.eu",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||app.usercentrics.eu"
     }
   },
   {
@@ -6462,21 +2696,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||www.anrdoezrs.net",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||www.anrdoezrs.net"
     }
   },
   {
@@ -6486,21 +2706,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||www.tkqlhce.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||www.tkqlhce.com"
     }
   },
   {
@@ -6510,21 +2716,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||click.linksynergy.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||click.linksynergy.com"
     }
   },
   {
@@ -6534,21 +2726,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||ad.linksynergy.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||ad.linksynergy.com"
     }
   },
   {
@@ -6558,21 +2736,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||track.linksynergy.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||track.linksynergy.com"
     }
   },
   {
@@ -6582,21 +2746,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||d.impactradius-event.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||d.impactradius-event.com"
     }
   },
   {
@@ -6606,21 +2756,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||api.impact.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||api.impact.com"
     }
   },
   {
@@ -6630,21 +2766,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||www.awin1.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||www.awin1.com"
     }
   },
   {
@@ -6654,21 +2776,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||partnerstack.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||partnerstack.com"
     }
   },
   {
@@ -6678,21 +2786,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||api.partnerstack.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||api.partnerstack.com"
     }
   },
   {
@@ -6702,21 +2796,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||s.skimresources.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||s.skimresources.com"
     }
   },
   {
@@ -6726,21 +2806,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||t.skimresources.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||t.skimresources.com"
     }
   },
   {
@@ -6750,21 +2816,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||go.skimresources.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||go.skimresources.com"
     }
   },
   {
@@ -6774,21 +2826,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||redirector.skimresources.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||redirector.skimresources.com"
     }
   },
   {
@@ -6798,21 +2836,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||cdn.viglink.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||cdn.viglink.com"
     }
   },
   {
@@ -6822,21 +2846,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||cdn.optimizely.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||cdn.optimizely.com"
     }
   },
   {
@@ -6846,21 +2856,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||logx.optimizely.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||logx.optimizely.com"
     }
   },
   {
@@ -6870,21 +2866,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||api.optimizely.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||api.optimizely.com"
     }
   },
   {
@@ -6894,21 +2876,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||cdn.dynamicyield.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||cdn.dynamicyield.com"
     }
   },
   {
@@ -6918,21 +2886,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||track.hubspot.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||track.hubspot.com"
     }
   },
   {
@@ -6942,21 +2896,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||trackcmp.net",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||trackcmp.net"
     }
   },
   {
@@ -6966,21 +2906,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||widget.intercom.io",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||widget.intercom.io"
     }
   },
   {
@@ -6990,21 +2916,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||js.driftt.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||js.driftt.com"
     }
   },
   {
@@ -7014,21 +2926,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||imasdk.googleapis.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||imasdk.googleapis.com"
     }
   },
   {
@@ -7038,21 +2936,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||dai.google.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||dai.google.com"
     }
   },
   {
@@ -7062,21 +2946,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||g.jwpsrv.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||g.jwpsrv.com"
     }
   },
   {
@@ -7086,21 +2956,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||ssl.p.jwpcdn.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||ssl.p.jwpcdn.com"
     }
   },
   {
@@ -7110,21 +2966,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||mssl.fwmrm.net",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||mssl.fwmrm.net"
     }
   },
   {
@@ -7134,21 +2976,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||cd.connatix.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||cd.connatix.com"
     }
   },
   {
@@ -7158,21 +2986,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||capi.connatix.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||capi.connatix.com"
     }
   },
   {
@@ -7182,21 +2996,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||vid.connatix.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||vid.connatix.com"
     }
   },
   {
@@ -7206,21 +3006,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||metrics.brightcove.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||metrics.brightcove.com"
     }
   },
   {
@@ -7230,21 +3016,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||s.innovid.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||s.innovid.com"
     }
   },
   {
@@ -7254,21 +3026,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||browser.sentry-cdn.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||browser.sentry-cdn.com"
     }
   },
   {
@@ -7278,21 +3036,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||d2wy8f7a9ursnm.cloudfront.net",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||d2wy8f7a9ursnm.cloudfront.net"
     }
   },
   {
@@ -7302,21 +3046,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||cdn.bugsnag.com",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "||cdn.bugsnag.com"
     }
   },
   {
@@ -7326,21 +3056,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*.swf",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "*.swf"
     }
   },
   {
@@ -7350,21 +3066,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*/ads/*.gif",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "*/ads/*.gif"
     }
   },
   {
@@ -7374,21 +3076,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*/ads/*.jpg",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "*/ads/*.jpg"
     }
   },
   {
@@ -7398,21 +3086,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*/ads/*.png",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "*/ads/*.png"
     }
   },
   {
@@ -7422,21 +3096,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*/banner/*.gif",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "*/banner/*.gif"
     }
   },
   {
@@ -7446,21 +3106,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*/banner/*.jpg",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "*/banner/*.jpg"
     }
   },
   {
@@ -7470,21 +3116,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*/banner/*.png",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "*/banner/*.png"
     }
   },
   {
@@ -7494,21 +3126,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*/banner_*.gif",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "*/banner_*.gif"
     }
   },
   {
@@ -7518,21 +3136,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*/ad_*.gif",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "*/ad_*.gif"
     }
   },
   {
@@ -7542,21 +3146,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*/ad_*.png",
-      "excludedInitiatorDomains": [
-        "youtube.com",
-        "www.youtube.com",
-        "m.youtube.com",
-        "youtube-nocookie.com",
-        "googlevideo.com",
-        "ytimg.com"
-      ],
-      "excludedRequestDomains": [
-        "googlevideo.com",
-        "ytimg.com",
-        "youtube.com",
-        "youtube-nocookie.com"
-      ]
+      "urlFilter": "*/ad_*.png"
     }
   }
 ]

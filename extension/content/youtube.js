@@ -33,9 +33,6 @@
       { display: none !important; }
 
       /* Ghost Mode Blackout Shield: Hides the 16x fast-forward flicker */
-      .html5-video-player.ad-showing video {
-        opacity: 0 !important;
-      }
       .html5-video-player.ad-showing::after {
         content: "Skipping Ad...";
         position: absolute;
@@ -119,6 +116,11 @@
         // guaranteeing a flawless transition back to your video.
         video.muted = true;
         try { video.playbackRate = 16; } catch {}
+        
+        // Force playback in case Chrome battery-optimizes the technically invisible playback
+        if (video.paused) {
+          video.play().catch(() => {});
+        }
       }
 
       // Spam click any skip buttons the millisecond they render

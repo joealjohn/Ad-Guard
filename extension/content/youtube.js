@@ -27,7 +27,7 @@
       } else {
         document.documentElement.removeAttribute('data-adguard-disabled');
       }
-      toggleAdHidingCSS(enabled);
+
     });
   } catch {}
 
@@ -38,7 +38,7 @@
         enabled = msg.enabled;
         if (!enabled) document.documentElement.setAttribute('data-adguard-disabled', 'true');
         else document.documentElement.removeAttribute('data-adguard-disabled');
-        toggleAdHidingCSS(enabled);
+
       }
     });
   } catch {}

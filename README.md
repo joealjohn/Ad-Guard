@@ -1,52 +1,42 @@
 <div align="center">
-  <img src="extension/icons/icon128.png" alt="Ghost Logo" width="120" />
-  <h1>Ghost Ad Blocker</h1>
-  <p><strong>The ultimate, undetectable Chrome extension designed specifically to bypass modern anti-adblock restrictions with zero player crashes.</strong></p>
-
-  <!-- Badges -->
-  <p>
-    <img src="https://img.shields.io/badge/Version-1.0.0-blue?style=flat-square&logo=googlechrome" alt="Version" />
-    <img src="https://img.shields.io/badge/Platform-Chrome%20%7C%20Edge%20%7C%20Brave-green?style=flat-square" alt="Platform" />
-    <img src="https://img.shields.io/badge/Manifest-V3-orange?style=flat-square" alt="Manifest V3" />
-    <img src="https://img.shields.io/badge/License-MIT-red?style=flat-square" alt="License" />
-    <img src="https://img.shields.io/badge/Status-100%25%20Crash--Proof-success?style=flat-square" alt="Status" />
-  </p>
+  <img src="extension/icons/icon128.png" width="128" alt="GHOST Logo">
+  <h1>GHOST Ad Blocker</h1>
+  <p><strong>A hyper-aggressive, stealth-focused Ad, Tracker, and Anti-Adblock eliminator for Manifest V3.</strong></p>
 </div>
 
 ---
 
-## ✨ Key Features
+## ⚡ Overview
+**GHOST** is not just another ad blocker. Built exclusively on Chrome's modern **Manifest V3** architecture, GHOST combines lightning-fast network interception with advanced DOM manipulation to completely eradicate ads across the web, specifically targeting YouTube and hostile ad-blocker-blocking websites.
 
-### 👻 Ghost Mode (0.6s Ultra-Fast YouTube Bypass)
-Unlike legacy adblockers that recklessly intercept backend API requests (which YouTube actively detects and punishes with permanent black screens), Ghost Mode uses **Precision Timeline Scrubbing**.
-- The exact millisecond an unskippable video ad appears, the internal video timestamp is instantly warped to exactly `0.6` seconds before the ad ends, and then naturally accelerated at `16.0x` speed.
-- This tight `0.6s` threshold forces the ad to legitimately "complete" according to the browser's native event listeners. YouTube's server-side validation (SSAI) accepts the completion and flawlessly loads your main video. **Zero buffering freezes. Zero black screens.**
+## 🚀 Key Features
+- 🛡️ **Network-Level Eradication:** Utilizes `declarativeNetRequest` to silently drop connections to over 140+ major ad syndicates, telemetry trackers (Google Analytics, Hotjar), and OEM beacons before they even load.
+- 🎯 **YouTube Ad Skipper Engine:** A dedicated content script that intercepts and brutally skips YouTube pre-roll, mid-roll, and overlay ads instantly, automatically clicking skip buttons and forwarding video players to bypass enforcement.
+- 🥷 **Anti-Adblock Spoofing:** Defeats "Please Disable Your Adblocker" overlays (commonly found on download and link-shortener sites) by directly injecting native JavaScript stubs (spoofing `window.ga`, `document.offsetHeight`, etc.) to trick the site into thinking ads successfully rendered.
+- 🧹 **Aggressive Whitespace Collapse:** Uses proactive `MutationObservers` to hunt down and completely collapse floating video players, sticky widgets, and the gaping white spaces left behind by deleted ads.
+- 🚫 **Popup Neutralizer:** Natively intercepts `window.open` mechanisms to block malicious pop-unders and deceptive new-tab spawns.
+- 📺 **Manual Picture-in-Picture:** Native built-in toggle to instantly pop out your YouTube videos into floating PiP windows.
 
-### 🗡️ Deep Cosmetic Sweeps
-A lightweight, global CSS injector wipes out structural UI ads before the DOM even begins rendering on your screen.
-- Destroys `ytd-rich-item-renderer` and sidebar recommendation grids.
-- Actively hunts for the legally mandated *Sponsored* tags (`.badge-style-type-ad`) to obliterate promoted products and tiles instantly.
-- Global cosmetic fallbacks effectively defeat advanced testing benchmarks (like the eXtreme Adblocker Test).
+## 🛠️ Installation
+1. Clone or download this repository to your local machine:
+   ```bash
+   git clone https://github.com/joealjohn/Ad-GHOST.git
+   ```
+2. Open Google Chrome and navigate to `chrome://extensions/`.
+3. Enable **Developer mode** using the toggle in the top right corner.
+4. Click on the **Load unpacked** button.
+5. Select the `extension` folder from this downloaded repository.
+6. Pin **GHOST** to your toolbar and enjoy a unified, ad-free web!
 
-### 🛑 Network-Level Engine
-Powered by Manifest V3's lightning-fast `declarativeNetRequest` API, the core engine blocks thousands of known tracking domains, analytics beacons, and third-party advertising hosts directly at the browser's networking layer, neutralizing them before a single byte of formatting downloads.
+## ⚙️ How it Works
+Unlike traditional ad blockers that inject thousands of heavy CSS rules slowing down your browser, GHOST prioritizes **stealth**:
+*   Instead of blindly hiding ad-blocker honeypots, GHOST overrides `getComputedStyle` and `clientHeight` to lie to trackers, feeding them artificially generated dimensions so they unlock the site's content.
+*   YouTube logic is heavily refined to outmaneuver Google's anti-adblock TOS scripts by manipulating the player's internal state machine directly.
 
-### 📱 Premium Purple GUI
-A beautiful, glassmorphic Control Center built with vanilla HTML/CSS featuring our dynamic `#4E4BB8` theme. Includes real-time connection status flags ("Enabled"/"Disabled") and a lightning-fast global kill-switch.
+## 🖌️ Aesthetics
+Includes a sleek, dark-mode native Glassmorphic popup UI giving you instant access to pause enforcement on specific domains and toggle YouTube Picture-in-Picture.
 
 ---
-
-## 🛠️ Architecture
-
-* **`manifest.json`** — Manifest V3 compliant base utilizing `declarativeNetRequest` for optimal performance.
-* **`rules.json`** — Domain-accurate networking filters.
-* **`youtube.js`** — The pure DOM-scrubbing script injected specifically to outsmart modern YouTube player configurations.
-* **`cosmetic.js`** — Removes empty ad-spaces and popups gracefully across the remainder of the web.
-
-## 🚀 Installation
-
-1. Clone or download this repository to your local machine.
-2. Open Google Chrome and navigate to `chrome://extensions`.
-3. Toggle the **Developer mode** switch in the top right corner.
-4. Click **Load unpacked** and select the `/extension` directory.
-5. Pin the extension to your toolbar and enjoy a flawless viewing experience!
+<div align="center">
+  <i>Developed for a seamless, private, and unstoppable browsing experience.</i>
+</div>

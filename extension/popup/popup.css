@@ -48,15 +48,6 @@ body {
   text-align: center;
 }
 
-.theme-btn {
-  background: none;
-  border: none;
-  cursor: pointer;
-  font-size: 18px;
-  outline: none;
-  padding: 4px;
-}
-
 .app-heading {
   font-size: 30px;
   font-weight: 800;
@@ -70,7 +61,7 @@ body {
 }
 
 .app-heading.active {
-  background: linear-gradient(135deg, #5c59d6 0%, #7673e6 50%, #3a378a 100%);
+  background: linear-gradient(135deg, #6A37CC 0%, #8B5CF6 50%, #5521B5 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -95,8 +86,8 @@ body {
 }
 
 .toggle-track.active {
-  background: linear-gradient(135deg, #3a378a 0%, #4E4BB8 100%);
-  box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.3), 0 0 25px rgba(78, 75, 184, 0.3), 0 0 50px rgba(78, 75, 184, 0.1);
+  background: linear-gradient(135deg, #5521B5 0%, #6A37CC 100%);
+  box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.3), 0 0 25px rgba(106, 55, 204, 0.3), 0 0 50px rgba(106, 55, 204, 0.1);
 }
 
 .toggle-thumb {
@@ -107,11 +98,11 @@ body {
 }
 .toggle-thumb.active {
   transform: translateX(96px);
-  box-shadow: 0 2px 12px rgba(0,0,0,0.3), 0 0 16px rgba(78, 75, 184, 0.3);
+  box-shadow: 0 2px 12px rgba(0,0,0,0.3), 0 0 16px rgba(106, 55, 204, 0.3);
 }
 
 .toggle-switch:hover .toggle-track:not(.active) { background: var(--track-hover); }
-.toggle-switch:hover .toggle-track.active { box-shadow: inset 0 2px 6px rgba(0,0,0,0.3), 0 0 35px rgba(78, 75, 184, 0.4), 0 0 70px rgba(78, 75, 184, 0.15); }
+.toggle-switch:hover .toggle-track.active { box-shadow: inset 0 2px 6px rgba(0,0,0,0.3), 0 0 35px rgba(106, 55, 204, 0.4), 0 0 70px rgba(106, 55, 204, 0.15); }
 .toggle-switch:active .toggle-thumb { width: 56px; }
 .toggle-switch:active .toggle-thumb.active { transform: translateX(88px); }
 
@@ -119,7 +110,7 @@ body {
 .connection-label { font-size: 18px; font-weight: 600; margin-bottom: 6px; transition: color 0.4s; }
 .protection-msg { font-size: 13px; color: #888; transition: color 0.4s; }
 .protection-msg strong { color: #999; font-weight: 700; transition: color 0.4s; }
-.protection-msg.active strong { color: #4E4BB8; }
+.protection-msg.active strong { color: #8B5CF6; }
 
 .pause-area { padding: 0 30px; margin-bottom: 20px; text-align: center; }
 .site-info { font-size: 13px; font-weight: 600; color: var(--site-info); margin-bottom: 12px; word-break: break-all; transition: color 0.3s; }
@@ -133,7 +124,6 @@ body {
 }
 .pause-btn:hover { background: var(--pause-hover); }
 
-/* The requested LIME GREEN resume color */
 .pause-btn.paused {
   background: #a3e635;
   color: #064e3b;
@@ -168,3 +158,23 @@ body {
 }
 .theme-btn:hover { background: var(--pause-hover); }
 .theme-btn svg { width: 100%; height: 100%; }
+
+/* YouTube PIP Additions */
+.yt-area { padding: 0 30px; margin-bottom: 20px; text-align: center; border-top: 1px solid var(--footer-border); padding-top: 15px; transition: border-color 0.3s; }
+.yt-title { font-size: 11px; text-transform: uppercase; letter-spacing: 1px; color: #888; margin-bottom: 12px; font-weight: 700; transition: color 0.3s; }
+.yt-pip-btn {
+  display: flex; align-items: center; justify-content: center; gap: 8px;
+  width: 100%; padding: 12px; font-size: 13px; font-weight: 600;
+  background: linear-gradient(135deg, #8B5CF6 0%, #6A37CC 100%);
+  color: #ffffff; border: none; border-radius: 24px; cursor: pointer;
+  transition: all 0.3s; box-shadow: 0 4px 15px rgba(106, 55, 204, 0.3);
+}
+.yt-pip-btn:hover {
+  background: linear-gradient(135deg, #9366f7 0%, #7641df 100%);
+  box-shadow: 0 4px 25px rgba(106, 55, 204, 0.5);
+  transform: translateY(-1px);
+}
+.yt-pip-btn:active {
+  transform: translateY(1px);
+  box-shadow: 0 2px 10px rgba(106, 55, 204, 0.3);
+}
